@@ -1,0 +1,41 @@
+.story__container {
+    display:grid;
+    grid-template-areas: 
+    "header header header"
+    "sidebar content"
+    "sidebar content";
+    grid-template-columns: 200px 250px 200px;
+    grid-auto-rows: minmax(150px, auto);
+    justify-items: center;
+    grid-gap: 20px;
+    width: 80%;
+}
+
+.story__container > .story__image {
+    background: red;
+    height: 20px;
+    width: 20px;
+}
+
+.info__container {
+    margin: 0 auto;
+    flex-direction:column;
+    text-align:center;
+    align-items:center;
+    width: 80%;
+    margin-top: 2rem;
+}
+
+.info__container h1 {
+    font-weight: 500;
+}
+
+.info__container .info__article {
+    margin-top: 1rem;
+}
+
+.visit__flower {
+    width: 4rem;
+    height: 4rem;
+    margin-top: 2rem;
+}
