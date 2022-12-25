@@ -4,16 +4,16 @@ import FLWR from '../../assets/flower.png'
 
 function Visit() {
   return (
-    <section class="visit__section">
+    <section class="visit__section" id="visit">
         <small>Det vore för oss en ära om ni vill</small>
         <h1>Fullända vår dag med er närvaro</h1>
         <hr />
         <h1 class="visit__names">Jesper</h1>
         <span>&</span>
-        <h1 class="visit__names">Excel</h1>
+        <h1 class="visit__names">Sofia</h1>
         <hr />
-        <h1>Prästen behöver ha vittnen</h1>
-        <small>Vi har redan pröjsat</small>
+        <h1>För (äntligen) har Jesper friat</h1>
+        <small>Och dagen är kommen</small>
         <div>
           <img className='visit__flower' src={FLWR} alt='' />
         </div>

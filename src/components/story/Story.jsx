@@ -13,17 +13,19 @@ const Story = () => {
             <div class="info__article">
                 <h1>Plats</h1>
                 <hr />
-                <p>Windows 95 - en lummig och spatiös maskin som vetter ut mot storslagna vyer av Windows ursprungliga screensaver. </p>
+                <p>En kyrka nära dig</p>
             </div>
             <div class="info__article">
                 <h1>Klädkod</h1>
                 <hr />
-                <p>Furry</p>
+                <p>Det finaste plaggen du har. Vilket egentligen är relativt. Så om du finner dig som finast i en 80-tals jumpsuit med reflekterande material - var dig själv, kära gäst.</p>
             </div>
             <div class="info__article">
-                <h1>Rank</h1>
+                <h1>Datum</h1>
                 <hr />
-                <p>Säkerställs vid insläpp. Lägre rank än Legend förbehåller vi rätten att neka inträde.</p>
+                <p>13/4 - 2023</p>
+                <p>18.00 är nedsläpp</p>
+                <p>17.00 är margaritas</p>
             </div>
             <div>
                 <img className='visit__flower' src={FLWR} alt='' />

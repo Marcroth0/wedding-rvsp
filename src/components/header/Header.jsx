@@ -4,13 +4,12 @@ import './header.css'
 function header() {
   return (
     <section class="header__container">
-      <h1>Jesper & Excel</h1>
+      <h1>Jesper & Sofia</h1>
       <nav class="navMenu">
         <span class="left"></span>
-        <a href="#">RSVP</a>
-        <a href="#">plats</a>
-        <a href="#">mat?</a>
-        <a href="#">legend</a>
+        <a href="#contact">RSVP</a>
+        <a href="#visit">Oss</a>
+        <a href="#story">Plats</a>
         <span class="right"></span>
       </nav>
       <div class="img__container">
