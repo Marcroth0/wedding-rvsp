@@ -12,7 +12,7 @@ function Visit() {
         <span>&</span>
         <h1 class="visit__names">Sofia</h1>
         <hr />
-        <h1>För (äntligen) har Jesper friat</h1>
+        <h1>För Jesper har (äntligen) friat</h1>
         <small>Och dagen är kommen</small>
         <div>
           <img className='visit__flower' src={FLWR} alt='' />
