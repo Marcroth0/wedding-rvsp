@@ -29,7 +29,7 @@ const Contact = () => {
           <input type="text" name='name' placeholder='Fullständiga namn' required />
           <input type="email" name="email" placeholder="Din mejladress" required />
           <textarea name="message" rows="7" placeholder="Vänligen lämna information om namn på alla som kommer och eventuella allergier." required></textarea>
-          <button type="submit" className='btn btn-primary'>Send Message</button>
+          <button type="submit" className='btn btn-primary'>Skicka in</button>
         </form>
         </div>
     </section>
